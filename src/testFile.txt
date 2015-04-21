@@ -1,0 +1,33 @@
+use file1;
+describe;
+describe file1;
+
+insert name=todd; addr=AL;
+insert name=wenhua;    addr= Bim; Postcode=35401;
+insert    name  =  yilong; addr=GA; 
+insert   name=yi Long; 
+insert   age=24; CWID=34234; grade=97;
+insert class=cs609; advisor= Vrbsky    ; number = 12;
+scan;
+insert   name:wenhua;
+
+insertbykey 9; name=John; age=14;
+insertbykey 1; name=jeffery; class=cs609;
+
+searchbykeys 1;
+searchbykeys 9;
+searchbykeys 20;
+searchbyfieldsvalues name=wenhua; addr=Bim;
+searchbyfieldsvalues age=24;
+
+updatebykeys 1; name=wenhua;
+updatebykeys 1, 2;name=yilong; addr=GA;
+
+countfield name; name=wenhua; age=24;
+countfield age; age=14;
+ 
+deletebykeys 1, 3, 4;
+deletebykeys 6;
+
+
+exit

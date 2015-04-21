@@ -1,0 +1,6 @@
+user=exit;	 passWord=exit;	 isSuperUser=N;	 
+user=default;	 passWord=default;	 isSuperUser=N;	 
+user=wenhua;	 passWord=cs609;	 isSuperUser=N;	 
+user=yilong;	 passWord=cs609;	 isSuperUser=N;	 
+user=defaultdefault,;	 passWord=cs609;	 isSuperUser=N;	 
+user=todd;	 passWord=;	 isSuperUser=N;	 
